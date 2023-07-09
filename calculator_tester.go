@@ -1,8 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("hello")
+	fmt.Println("Калькулятор запущен")
+	
+	var a, b int
+	
+	fmt.Scanln("Введите число number one:", &a)
+	fmt.Scanln("Введите число number two:", &b)
+
+
+
+
+
+
+
 
 }
